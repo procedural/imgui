@@ -8,10 +8,10 @@
 #if defined __cplusplus
 #define EXTERN extern "C"
 #else
-#include <stdarg.h>
 #include <stdbool.h>
 #define EXTERN extern
 #endif
+#include <stdarg.h>
 
 #define CIMGUI_API EXTERN API
 #define CONST const
